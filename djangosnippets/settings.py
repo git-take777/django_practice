@@ -55,7 +55,7 @@ ROOT_URLCONF = 'djangosnippets.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [],  # プロジェクトの templates ディレクトリを追加する例
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
